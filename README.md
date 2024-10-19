@@ -18,9 +18,9 @@ Make sure you have the following installed:
    cd <repo-folder>
    ```
 
-2.Install Dependencies:
+2. Install Dependencies:
 
-    npm install
+   npm install
 
 3. Create a .env file at the root of the project and add your configuration variables (you will get the configuaration from .env.example file)
 
@@ -35,7 +35,11 @@ Make sure you have the following installed:
 6. Code Structure :
 
    src/: Contains all source code.
+
    entities/: Defines TypeORM entities.
+
    controllers/: Handles request and response logic.
+
    services/: Contains business logic for interacting with the database.
+
    middlewares/: Custom middleware functions, like authentication and logging.
