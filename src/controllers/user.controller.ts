@@ -1,4 +1,3 @@
-import HttpStatus from "http-status";
 import catchAsync from "../utils/catchAsync.ts";
 import userService from "../services/user.service.ts";
 import {Request, Response} from "express";

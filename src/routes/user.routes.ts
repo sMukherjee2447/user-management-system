@@ -3,7 +3,6 @@ import {auth} from "../middleware/auth.ts";
 const router = express.Router();
 
 import userController from "../controllers/user.controller.ts";
-import user from "../models/user.ts";
 
 router.route("/register").post(userController.registerUser);
 

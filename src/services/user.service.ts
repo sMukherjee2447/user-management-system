@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from "http-status";
 import User from "../models/user.ts";
 import bcrypt from "bcrypt";
