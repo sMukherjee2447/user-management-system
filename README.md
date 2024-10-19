@@ -36,8 +36,6 @@ Make sure you have the following installed:
 
    src/: Contains all source code.
 
-   entities/: Defines TypeORM entities.
-
    controllers/: Handles request and response logic.
 
    services/: Contains business logic for interacting with the database.
